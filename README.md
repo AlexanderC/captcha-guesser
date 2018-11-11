@@ -12,8 +12,11 @@ Before sending images to AWS Rekognition, they are preprocessed for obtaining be
 - [x] [Moldcell](http://moldcell.md)
   > `~70-80% success rate`, mostly issues with confusing `J<>I` and `D<>O`
 
-- [ ] [Orange](https://www.orange.md/)
-- [ ] [Unite](http://unite.md/ro/personal/sms)
+- [x] [Orange](https://www.orange.md)
+  > `NOT WORKING` - almost 0 success rate
+
+- [ ] [Unite](http://unite.md)
+  > `NOT WORKING` - almost 0 success rate
 
 ## Prerequisites
 
@@ -50,3 +53,12 @@ bin/cli.js test -p moldcell
 # Test Moldcell with live data (obtained 100 times)
 bin/cli.js test -p moldcell --live -i 100
 ```
+
+## Roadmap
+
+- [ ] Improve orange
+- [ ] Improve unite
+- [ ] Add orange live testcase
+- [ ] Add unite live testcase
+
+> This might never happen ;)
